@@ -36,7 +36,7 @@ public class EmailValidatorUI extends UI {
 
         Label message = new Label();
         
-        Button validate = new Button("Validate Email");
+        Button validate = new Button("Check Validity");
         validate.addClickListener( e -> {
         	
         	EmailValidator validator = new EmailValidator();
